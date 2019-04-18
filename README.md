@@ -1,7 +1,8 @@
 # MSFWEB
 
 `A simple container for building Metasploit framework and making it available via a web TTY`
-<img src=".\msfweb.gif">
+
+><img src=".\msfweb.gif">
 ## Components
 
 * Metasploit -  software platform for developing, testing, and executing exploits -`https://github.com/rapid7/metasploit-framework.git`
