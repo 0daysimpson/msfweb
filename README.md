@@ -14,3 +14,6 @@ Pull the container image
 
 Run the container
 >>`docker run -d -p 8080:8080 0daysimpson/msfweb`
+
+Access the web app
+>>`http://localhost:8080`
