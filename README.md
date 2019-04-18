@@ -1,8 +1,8 @@
 # msfWeb
 
-`A simple container for building Metasploit framework and making it available via a web TTY`
+A simple container for building Metasploit framework and making it available via a web TTY
 
-    The purpose behind this project was to make metasploit quickly available during an engagement without the need for ssh or a full workstation. 
+   The purpose behind this project was to make metasploit quickly available during an engagement without the need for ssh or a full workstation. 
 
     
 ## Components
