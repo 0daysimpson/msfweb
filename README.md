@@ -20,10 +20,10 @@ A simple container for building Metasploit framework and making it available via
 ## Usage
 
 Pull the container image
->>`docker pull 0daysimpson/msfweb`
+>**`docker pull 0daysimpson/msfweb`**
 
 Run the container
->>`docker run -d -p 8080:8080 0daysimpson/msfweb`
+>**`docker run -d -p 8080:8080 0daysimpson/msfweb`**
 
 Access the web app
 >`http://localhost:8080`
