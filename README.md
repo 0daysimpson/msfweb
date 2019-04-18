@@ -3,6 +3,13 @@
 A simple container for building Metasploit framework and making it available via a web TTY
 
    The purpose behind this project was to make metasploit quickly available during an engagement without the need for ssh or a full workstation. 
+   
+   Utilizing the framework in this way offers several advantages
+   
+   * Easy to deploy
+   * Accessible via any web client (mobile, smart tv, etc)
+   * Native proxy support / bypass firewalls
+   
 
     
 ## Components
