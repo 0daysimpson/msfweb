@@ -2,7 +2,7 @@
 
 `A simple container for building Metasploit framework and making it available via a web TTY`
 
-><img src=".\msfweb.gif">
+
 ## Components
 
 * Metasploit -  software platform for developing, testing, and executing exploits -`https://github.com/rapid7/metasploit-framework.git`
@@ -18,3 +18,4 @@ Run the container
 
 Access the web app
 >>`http://localhost:8080`
+><img src=".\msfweb.gif">
