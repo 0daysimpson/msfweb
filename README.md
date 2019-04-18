@@ -1,8 +1,10 @@
-# MSFWEB
+# msfWeb
 
 `A simple container for building Metasploit framework and making it available via a web TTY`
 
+    The purpose behind this project was to make metasploit quickly available during an engagement without the need for ssh or a full workstation. 
 
+    
 ## Components
 
 * Metasploit -  software platform for developing, testing, and executing exploits -`https://github.com/rapid7/metasploit-framework.git`
