@@ -6,7 +6,7 @@ RUN apt update
 RUN apt upgrade -y
 RUN apt install golang git build-essential patch ruby ruby-dev libsqlite3-dev -y 
 RUN apt install libpcap-dev libpq-dev zlib1g-dev libz-dev liblzma-dev -y
-RUN gem install bundler
+RUN gem install bundler -v 1.16.1
 USER skiddy
 RUN cd ~ && git clone https://github.com/rapid7/metasploit-framework.git
 USER root
