@@ -12,7 +12,7 @@ RUN go get github.com/yudai/gotty
 RUN cd ~ && git clone https://github.com/rapid7/metasploit-framework.git
 USER root
 RUN cd  /home/skiddy/metasploit-framework && bundle install
-RUN apt remove golang git && RM /usr/bin/irb
+RUN apt remove golang git -y && RM /usr/bin/irb
 USER skiddy
 ENV TERM xterm
 RUN mkdir ~/loot
