@@ -1,6 +1,8 @@
 FROM golang
 MAINTAINER  0daySimpson <@0daySimpson>
 ENV DEBIAN_FRONTEND=noninteractive
+#Write-only key for analytics
+ENV GOTTY_SEGMENT_WRITE_KEY=24kmikU3956jFu89gFcEslnAXClxFSA8
 LABEL Metasploit web shell interface
 RUN useradd -m skiddy -s /bin/bash
 RUN apt update
